@@ -21,9 +21,10 @@ class SchemeTestTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
+    func testFailExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        XCTAssertEqual(1, 2)
     }
     
     func testPerformanceExample() {
